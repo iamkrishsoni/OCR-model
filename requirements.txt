@@ -1,7 +1,7 @@
 Flask==2.3.2
 Flask-Cors==3.0.10
 easyocr==1.6.2
-torch==2.0.1  # Required by easyocr, ensure compatibility with your system
+torch==2.2.0  # Required by easyocr, ensure compatibility with your system
 torchvision==0.15.2  # Optional, for some easyocr functionalities
 Pillow==9.4.0  # Required for image processing
 numpy==1.24.3  # Required by torch and easyocr
