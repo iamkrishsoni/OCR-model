@@ -6,7 +6,7 @@ import tempfile  # Import tempfile module
 
 app = Flask(__name__)
 CORS(app)  
-port = 9000
+port = 443
 
 @app.route('/')
 def home():
