@@ -6,7 +6,7 @@ import tempfile  # Import tempfile module
 
 app = Flask(__name__)
 CORS(app)  
-port = 9000
+port = 8000
 
 @app.route('/')
 def home():
@@ -32,7 +32,7 @@ def scrap_portfolio():
 
         # Optionally, delete the temporary file
         os.remove(temp_file_path)
-
+        print(result)
         return jsonify(result)
 
     except Exception as e:
@@ -69,6 +69,5 @@ def scrap_folder():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=port, debug=True)
-
 
 
