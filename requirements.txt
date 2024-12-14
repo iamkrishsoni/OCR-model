@@ -1,6 +1,7 @@
-Flask==2.1.1
-flask_cors==3.0.10
-easyocr==1.4.1
-torch==1.9.0+cpu  # or appropriate torch version compatible with easyocr and your system
-numpy==1.21.0  # required for easyocr
-opencv-python-headless==4.5.3.56  # used by easyocr for image processing
+Flask==2.3.2
+Flask-Cors==3.0.10
+easyocr==1.6.2
+torch==2.2.0
+torchvision==0.17.2
+Pillow==9.4.0
+numpy==1.24.3
